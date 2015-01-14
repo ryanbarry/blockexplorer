@@ -1,0 +1,26 @@
+{
+  "name": "blockexplorer",
+  "version": "0.0.1",
+  "description": "basic bitcoin block explorer Web app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanbarry/blockexplorer"
+  },
+  "keywords": [
+    "bitcoin",
+    "blockchain"
+  ],
+  "author": "Ryan Barry <ryan@nuclearice.com>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/ryanbarry/blockexplorer/issues"
+  },
+  "homepage": "https://github.com/ryanbarry/blockexplorer",
+  "dependencies": {
+    "bitcoin": "^2.2.0"
+  }
+}
