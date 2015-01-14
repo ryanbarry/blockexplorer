@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title BlockchainU Explorer
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    center
+      h1 Explore the Bitcoin Blockchain!
+      form(method="POST" action="/")
+        input(type="text" name="id" size=80)
+        button(submit) explore
+
+    block content

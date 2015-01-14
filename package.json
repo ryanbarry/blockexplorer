@@ -2,8 +2,8 @@
   "name": "blockexplorer",
   "version": "0.0.1",
   "description": "basic bitcoin block explorer Web app",
-  "main": "main.js",
   "scripts": {
+    "start": "coffee ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,14 @@
   },
   "homepage": "https://github.com/ryanbarry/blockexplorer",
   "dependencies": {
-    "bitcoin": "^2.2.0"
+    "bitcoin": "^2.2.0",
+    "express": "^4.11.0",
+    "jade": "^1.9.0",
+    "run-sequence": "^1.0.2",
+    "body-parser": "~1.10.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0",
+    "debug": "~2.1.1"
   }
 }
